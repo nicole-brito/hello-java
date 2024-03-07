@@ -68,11 +68,29 @@ public class exercicios_03 {
         int idade = scanner.nextInt();
         System.out.println("Digite seu endereço: ");
         String endereco = scanner.next();
-        System.out.println("Esses são seus dados de cadastro:\n " +
+        System.out.println("Esses são seus dados de cadastro:\n" +
                 "Nome: " + nome + " " + sobrenome + "\n" +
                 "Idade: " + idade + "\n" +
                 "Endereço: " + endereco);
+        System.out.println(" ");
+
+
+        //Exercício 5
+        System.out.println("===Exercício 5===");
+        System.out.println("Qual seu nome?");
+        String nome5 = scanner.next();
+        System.out.println(nome5 + ", qual a sua idade? ");
+        int idade5 = scanner.nextInt();
+        System.out.println("e você já fez aniversário esse ano, " + nome5 + "? (S/N)");
+            String aniver = scanner.next();
+            if (aniver == "S" || aniver == "s") {
+                System.out.println("Você nasceu no ano de: " + (2024 - idade5));
+            } else {
+                System.out.println("Você nasceu no ano de: " + (2023 - idade5));
+            }
+        }
+        //System.out.println("Você nasceu no ano de: " + (2024 - idade5));
+
 
     }
 
-}
