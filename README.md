@@ -2,12 +2,9 @@
   <img src="https://github.com/nicole-brito/hello-java/assets/80689302/2e7ed04d-7b21-42c7-9305-e6f6f581c931" width="20%">
 </div>
 
-# Trilha de Aprendizado
+Primeiros passos em Java a partir de diversos meios de aprendizadom, incluindo o bootcamp Elas Tech e o livro Desbravando Java e Orientação a Objetos
 
-Utilizando o livro "Desbravando Java e Orientação a Objetos Um guia para o iniciante da linguagem", irei documentar meus primeiros passos em Java. 
-</br>
-Esta biblioteca também poderá ser usada como objeto de revisão posteriormente.
-
+# Trilha de Aprendizado - Livro "Desbravando Java e Orientação a Objetos: Um guia para o iniciante da linguagem"
 
 ## Capítulos
 - [x]  1. Java
