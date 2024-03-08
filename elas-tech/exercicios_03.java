@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class exercicios_03 {
-
     public static void main(String[] args) {
 
         //Exercício 1
@@ -28,14 +27,12 @@ public class exercicios_03 {
         //Exercício 2
         System.out.println("===Exercício 2===");
         Scanner scanner = new Scanner(System.in);
-        int suc, ant;
         System.out.println("Digite um número inteiro: ");
         int num_int = scanner.nextInt();
-        ant = num_int - 1;
-        suc = num_int + 1;
+        int num_int2 = num_int;
 
-        System.out.println("O antecessor de " + num_int + " é: " + ant);
-        System.out.println("O sucessor de " + num_int + " é: " + suc);
+        System.out.println("O antecessor de " + num_int + " é: " + --num_int);
+        System.out.println("O sucessor de " + num_int2 + " é: " + ++num_int2);
         System.out.println(" ");
 
 
@@ -50,11 +47,11 @@ public class exercicios_03 {
             System.out.println("O número " + num + " é ímpar");
         }
         System.out.println(" ");
-        double dez_porc = num * 0.1;
-        System.out.println("10% de " + num + " é: " + dez_porc);
+        //10%
+        System.out.println("10% de " + num + " é: " + num * 0.1);
         System.out.println(" ");
-        int dobro = num * 2;
-        System.out.println("O dobro de " + num + " é: " + dobro);
+        // Dobro
+        System.out.println("O dobro de " + num + " é: " + num * 2);
         System.out.println(" ");
 
 
@@ -82,15 +79,15 @@ public class exercicios_03 {
         System.out.println(nome5 + ", qual a sua idade? ");
         int idade5 = scanner.nextInt();
         System.out.println("e você já fez aniversário esse ano, " + nome5 + "? (S/N)");
-            String aniver = scanner.next();
-            if (aniver == "S" || aniver == "s") {
-                System.out.println("Você nasceu no ano de: " + (2024 - idade5));
-            } else {
-                System.out.println("Você nasceu no ano de: " + (2023 - idade5));
-            }
+        String aniver = scanner.next();
+        if (aniver == "S" || aniver == "s") {
+            System.out.println("Você nasceu no ano de: " + (2024 - idade5));
+        } else {
+            System.out.println("Você nasceu no ano de: " + (2023 - idade5));
         }
-        //System.out.println("Você nasceu no ano de: " + (2024 - idade5));
-
-
     }
+    //System.out.println("Você nasceu no ano de: " + (2024 - idade5));
+
+
+}
 
