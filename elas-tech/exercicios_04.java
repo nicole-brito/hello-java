@@ -20,6 +20,7 @@ public class exercicios_04 {
         int n2 = scanner.nextInt();
         System.out.println("\nA soma de " + n1 + "+" + n2 + " é: " + (n1 + n2));
         System.out.println("A subtração de " + n1 + "-" + n2 + " é: " + (n1 - Math.abs(n2)));
+        System.out.println("A subtração de " + n1 + "-" + n2 + " é: " + (n1 - n2));
         System.out.println("A multiplicação de " + n1 + "*" + n2 + " é: " + (n1 * n2));
         System.out.println("A divisão de " + n1 + "/" + n2 + " é: " + (n1 / n2));
 
@@ -67,7 +68,6 @@ public class exercicios_04 {
                 System.out.println("Esse não é um número válido :(");
         }
 
-
         //Atividade 5
         System.out.println("\n=== Atividade 5 ===");
         System.out.println("Digite um número: ");
@@ -80,6 +80,7 @@ public class exercicios_04 {
         } else {
             System.out.println("O número " + Math.abs(number) + " é negativo");
         }
+
 
         switch (number % 2) {
             case 0:
@@ -121,9 +122,9 @@ public class exercicios_04 {
             default:
                 System.out.println("Número inválido :(");
 
+
         }
 
     }
 }
-
 
