@@ -1,3 +1,5 @@
+package Aulas_01_a_07;
+
 import java.util.Scanner;
 
 public class aula_04 {

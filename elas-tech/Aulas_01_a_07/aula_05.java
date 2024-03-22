@@ -1,3 +1,5 @@
+package Aulas_01_a_07;
+
 import java.util.Random;
 import java.util.Scanner;
 

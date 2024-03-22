@@ -1,3 +1,5 @@
+package exercicios;
+
 import java.lang.reflect.WildcardType;
 import java.util.ArrayList;
 import java.util.Random;
@@ -24,10 +26,14 @@ public class exercicios_05 {
         System.out.println("8 - Adivinhe o Número");
         System.out.println("9 - Conversor de Temperaturas");
         System.out.println("10 - Lista de Compras");
+        System.out.println("0 - Fechar programa");
 
         System.out.println("️\n =========================");
 
         int digitoMenu = scanner.nextInt();
+
+
+        while (digitoMenu != 0)
 
         switch (digitoMenu) {
             case 1:
@@ -40,7 +46,7 @@ public class exercicios_05 {
                 for (int i = 10; i >= 0; i-- ){
                     System.out.println(i);
                 }
-                break;
+                return;
             case 2:
                 System.out.println("️\n ====== Exercício 2 ======");
                 System.out.println("|                         |");
@@ -55,7 +61,7 @@ public class exercicios_05 {
                 for (int i = 10; i >= 1; i-- ){
                     System.out.println(tabuada + " x " + i + " = " + (tabuada * i));
                 }
-                break;
+                return;
             case 3:
                 System.out.println("️\n ====== Exercício 3 ======");
                 System.out.println("|                         |");
@@ -70,7 +76,7 @@ public class exercicios_05 {
                     }
                 }
                 System.out.println("\nA soma dos números pares de 1 a 100 é: " + soma);
-                break;
+                return;
             case 4:
                 System.out.println("️\n ====== Exercício 4 ======");
                 System.out.println("|                         |");
@@ -86,7 +92,7 @@ public class exercicios_05 {
                 }else {
                     System.out.println("O número não é primo");
                 }
-                break;
+                return;
             case 5:
                 System.out.println("️\n ====== Exercício 5 ======");
                 System.out.println("|                         |");
@@ -101,7 +107,7 @@ public class exercicios_05 {
                     n2 = n3;
                     System.out.println(n1);
                 }
-                break;
+                return;
             case 6:
                 System.out.println("️\n ====== Exercício 6 ======");
                 System.out.println("|                         |");
@@ -120,7 +126,7 @@ public class exercicios_05 {
                     numero = scanner.nextInt();
                 }
                 System.out.println("\nA média dos números inseridos é: " + (soma6 / cont));
-                break;
+                return;
             case 7:
                 System.out.println("️\n ====== Exercício 7 ======");
                 System.out.println("|                         |");
@@ -147,16 +153,23 @@ public class exercicios_05 {
                     switch (digito) {
                         case 1:
                             resultado = num1 + (num2);
-                            break;
+                            System.out.println(resultado);
+                            return;
                         case 2:
                             resultado = num1 - (num2);
-                            break;
+                            System.out.println(resultado);
+
+                            return;
                         case 3:
                             resultado = num1 * num2;
-                            break;
+                            System.out.println(resultado);
+
+                            return;
                         case 4:
                             resultado = num1 / num2;
-                            break;
+                            System.out.println(resultado);
+
+                            return;
                         default:
                             System.out.println("Opção inválida");
                             break;
@@ -174,7 +187,7 @@ public class exercicios_05 {
 
 
                 }
-                break;
+                return;
             case 8:
                 System.out.println("️\n ====== Exercício 8 ======");
                 System.out.println("|                         |");
@@ -214,7 +227,7 @@ public class exercicios_05 {
                         tent = 0;
                     }
                 }
-                break;
+                return;
             case 9:
                 System.out.println("️\n ====== Exercício 9 ======");
                 System.out.println("|                         |");
@@ -236,10 +249,10 @@ public class exercicios_05 {
                     switch (digito9) {
                         case 1:
                             resultado = (temperatura * 9/5) + 32;
-                            break;
+                            return;
                         case 2:
                             resultado = (temperatura - 32) * 5/9;
-                            break;
+                            return;
                         default:
                             System.out.println("Opção inválida\n");
                             break;
@@ -247,7 +260,7 @@ public class exercicios_05 {
                     System.out.println("A temperatura convertida é: " + resultado);
 
                 }
-                break;
+                return;
             case 10:
                 System.out.println("️\n ===== Exercício 10 =====");
                 System.out.println("|                         |");
@@ -267,10 +280,10 @@ public class exercicios_05 {
 
                 }
                 System.out.println("\nSua lista de compras é: " + lista);
-                break;
+                return;
             default:
                 System.out.println("Opção inválida");
-                break;
+                return;
         }
     }
 }

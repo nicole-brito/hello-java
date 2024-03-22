@@ -1,3 +1,5 @@
+package Aulas_01_a_07;
+
 import java.util.*;
 
 public class aula_07 {
@@ -118,5 +120,4 @@ public class aula_07 {
 
         }
     }
-
 }
