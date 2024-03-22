@@ -5,10 +5,6 @@ public class Main {
         Colaboradores c1 = new Colaboradores("Nicole", "Brito", 4500.0);
         Colaboradores c2 = new Colaboradores("Keven", "Kniggendorf", 5000.0);
 
-
-
-
-
         c1.getSalarioAnual();
         c2.getSalarioAnual();
         c1.setSalarioMensal(c1.getSalarioMensal() + (c1.getSalarioMensal() * 0.1));
@@ -17,14 +13,5 @@ public class Main {
         c1.getSalarioAnual();
         System.out.println("Aumento de 10% concedido!");
         c2.getSalarioAnual();
-
-        /*conta.saldo();
-        conta.depositar(20);
-        conta.sacar(10);
-        conta.saldo();
-        conta.depositar(30);
-        conta.saldo();*/
-
-
     }
 }

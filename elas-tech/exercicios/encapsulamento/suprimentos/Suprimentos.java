@@ -12,20 +12,20 @@ public class Suprimentos {
         this.quantItem = quantItem > 0 ? quantItem : 0;
         this.precoUnItem = precoUnItem > 0 ? precoUnItem : 0.0;
     }
-    public int getNumItem() {
-        return numItem;
+    public void getNumItem() {
+        System.out.println("O ID do item é: " + numItem);
     }
     public void setNumItem(int numItem) {
         this.numItem = numItem;
     }
-    public String getDescItem() {
-        return descItem;
+    public void  getDescItem() {
+        System.out.println("O item " + numItem + " é: " + descItem);
     }
     public void setDescItem(String descItem) {
         this.descItem = descItem;
     }
-    public int getQuantItem() {
-        return quantItem;
+    public void getQuantItem() {
+        System.out.println("A quantidade de " + descItem + " é de: " + quantItem);
     }
     public void setQuantItem(int quantItem) {
         this.quantItem = quantItem;
