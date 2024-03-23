@@ -3,7 +3,7 @@
 </div>
 
 
-# System.out.print("Hello Java!")
+# `System.out.print("Hello Java!")`
 
 Esse repositório é o meu diário de bordo, onde registro alguns dos meus passos enquanto aprendo Java. Aqui eu armazeno alguns projetos menores ou mais educativos, que podem me servir de referência depois. 
 
