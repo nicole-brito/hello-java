@@ -20,7 +20,7 @@ public class TesteUser {
                 .userAtivo(false)
                 .dataNascimento(LocalDate.of(2000, 07, 06))
                 .id(002)
-                .email("keve.gostosinho@gmail.com")
+                .email("kev@gmail.com")
                 .build();
 
         System.out.println(user);
