@@ -7,6 +7,6 @@ public class areaQuadrado_03 {
         System.out.println("=== Área do Quadrado ===");
         System.out.println("Digite o valor: ");
         int l = scanner.nextInt();
-        System.out.println("O valor da área do quadrado é: " + l * l );
+        System.out.println("O valor da área do quadrado é: " + l * l);
     }
 }

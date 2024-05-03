@@ -73,6 +73,7 @@ public class User {
     public String getIsUserAtivo(String isUserAtivo) {
         return isUserAtivo;
     }
+
     public String getIsUserAtivo() {
         return isUserAtivo;
     }
@@ -157,6 +158,31 @@ public class User {
                 isUserAtivo = "Usuário Inativo";
             }
             return new User(nome, sobrenome, email, dataNascimento, userAtivo, id, isUserAtivo);
+        }
+    }
+
+    public static class TesteUser {
+        public static void main(String[] args) {
+            User user = new UserBuilder()
+                    .nome("Nicole")
+                    .sobrenome("Brito")
+                    .userAtivo(true)
+                    .dataNascimento(LocalDate.of(2001, 06, 15))
+                    .id(001)
+                    .email("nicolem.britto@gmail.com")
+                    .build();
+
+            User user2 = new UserBuilder()
+                    .nome("Keven")
+                    .sobrenome("Kniggendorf")
+                    .userAtivo(false)
+                    .dataNascimento(LocalDate.of(2000, 07, 06))
+                    .id(002)
+                    .email("kev@gmail.com")
+                    .build();
+
+            System.out.println(user);
+            System.out.println(user2);
         }
     }
 }

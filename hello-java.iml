@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/elas-tech" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/livraria" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/neps-academy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/design-patterns/02_factory_method" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

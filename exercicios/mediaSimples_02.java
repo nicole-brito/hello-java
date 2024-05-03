@@ -10,6 +10,6 @@ public class mediaSimples_02 {
         System.out.println("Digite o segundo número (B): ");
         int b = scanner.nextInt();
 
-        System.out.println("\nO resultado é: " + (a + b) /2);
+        System.out.println("\nO resultado é: " + (a + b) / 2);
     }
 }
